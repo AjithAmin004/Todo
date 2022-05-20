@@ -43,7 +43,7 @@ input{
     font-size: 21px;
     padding: .1rem 1rem;
     outline: none;
-    width:35vw;
+    width:40vw;
 }
 #icon{
     color: green;
@@ -54,8 +54,8 @@ li{
     padding: .1rem .5rem;
     margin: .5rem;
     background-color:#E2CFEA;
-    width: 28rem;
-    min-height: 2rem;
+    width: 35rem;
+    min-height: 2.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -79,8 +79,12 @@ li{
 }
 
 #ok{
-    width:25rem;
+    width:31rem;
     outline:none;
+    
+}
+.icons{
+    margin:0 .8rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -91,6 +95,9 @@ li{
     input{
         width: 80%;
         font-size: 18px;
+    }
+    li{
+        width: 90vw;
     }
    
   }
